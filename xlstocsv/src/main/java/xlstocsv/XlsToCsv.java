@@ -11,8 +11,8 @@ public class XlsToCsv {
 
     public static void main(String[] args) {
         // Archivos de entrada y salida
-        String inputFile = "datos/embarcacionesPrecios_es.xls";
-        String outputFile = "resultados/resul_mar.csv";
+        String inputFile = "datos/preciosEESS_es.xls";
+        String outputFile = "resultados/resul_t.csv";
 
         try (FileInputStream fis = new FileInputStream(new File(inputFile));
              FileWriter csvWriter = new FileWriter(outputFile)) {
